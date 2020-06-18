@@ -30,10 +30,38 @@ namespace PaginasNaoFeitas
             x.Visible = true;
             x.StartPosition = FormStartPosition.CenterScreen;
         }
+        public void IrProCadTurma()
+        {
+            this.Visible = false;
+            this.Hide();
+            CadTurmas x = new CadTurmas(this);
+            x.Visible = true;
+            x.StartPosition = FormStartPosition.CenterScreen;
+        }
+        public void IrProCheckTurma()
+        {
+            this.Visible = false;
+            this.Hide();
+            ChecarTurma x = new ChecarTurma(this);
+            x.Visible = true;
+            x.StartPosition = FormStartPosition.CenterScreen;
+        }
+
+
 
         private void button1_Click(object sender, EventArgs e)
         {
             IrProCadPessoa();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            IrProCadTurma();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            IrProCheckTurma();
         }
     }
 }

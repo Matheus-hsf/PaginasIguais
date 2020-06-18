@@ -16,7 +16,7 @@ namespace PaginasNaoFeitas
             set { nome = value; }
         }
 
-        public int hora, minuto;
+        public string hora, minuto;
 
     }
 }

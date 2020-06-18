@@ -9,3 +9,5 @@ C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoF
 C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoFeitas.exe
 C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoFeitas.pdb
 C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoFeitas.CadPessoas.resources
+C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoFeitas.CadTurmas.resources
+C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoFeitas.ChecarTurma.resources
