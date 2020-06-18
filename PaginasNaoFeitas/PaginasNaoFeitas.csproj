@@ -58,6 +58,12 @@
     <Compile Include="CadTurmas.Designer.cs">
       <DependentUpon>CadTurmas.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChecarPessoas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChecarPessoas.Designer.cs">
+      <DependentUpon>ChecarPessoas.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChecarTurma.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CadTurmas.resx">
       <DependentUpon>CadTurmas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChecarPessoas.resx">
+      <DependentUpon>ChecarPessoas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChecarTurma.resx">
       <DependentUpon>ChecarTurma.cs</DependentUpon>

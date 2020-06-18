@@ -10,36 +10,26 @@ using System.Windows.Forms;
 
 namespace PaginasNaoFeitas
 {
-    public partial class ChecarTurma : Form
+    public partial class ChecarPessoas : Form
     {
         private Form1 main;
-        public ChecarTurma()
+        public ChecarPessoas()
         {
             InitializeComponent();
         }
-        public ChecarTurma(Form1 x)
+        public ChecarPessoas(Form1 x)
         {
             InitializeComponent();
             main = x;
         }
 
-        private void ChecarTurma_Load(object sender, EventArgs e)
+
+        private void ChecarPessoas_Load(object sender, EventArgs e)
         {
             foreach (Turma x in ControllerTurma.turmas)
             {
                 comboBox1.Items.Add(x.Nome);
             }
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ChecarTurma_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            main.Visible = true;
-            main.Show();
         }
     }
 }

@@ -60,6 +60,7 @@
             this.Controls.Add(this.label1);
             this.Name = "ChecarTurma";
             this.Text = "ChecarTurma";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ChecarTurma_FormClosed);
             this.Load += new System.EventHandler(this.ChecarTurma_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
