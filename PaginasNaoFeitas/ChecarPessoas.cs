@@ -30,6 +30,21 @@ namespace PaginasNaoFeitas
             {
                 comboBox1.Items.Add(x.Nome);
             }
+            foreach (Pessoa x in ControllerPessoas.listaDePessoas)
+            {
+                comboBox2.Items.Add(x.Nome);
+            }
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void ChecarPessoas_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            main.Visible = true;
+            main.Show();
         }
     }
 }

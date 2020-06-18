@@ -69,6 +69,7 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(269, 21);
             this.comboBox2.TabIndex = 2;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // ChecarPessoas
             // 
@@ -81,6 +82,7 @@
             this.Controls.Add(this.comboBox1);
             this.Name = "ChecarPessoas";
             this.Text = "ChecarPessoas";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ChecarPessoas_FormClosed);
             this.Load += new System.EventHandler(this.ChecarPessoas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
