@@ -16,5 +16,24 @@ namespace PaginasNaoFeitas
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        public void IrProCadPessoa()
+        {
+            this.Visible = false;
+            this.Hide();
+            CadPessoas x = new CadPessoas(this);
+            x.Visible = true;
+            x.StartPosition = FormStartPosition.CenterScreen;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            IrProCadPessoa();
+        }
     }
 }
