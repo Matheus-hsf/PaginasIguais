@@ -9,9 +9,6 @@ namespace PaginasNaoFeitas
     class ControllerPessoas
     {
         public static List<Pessoa> listaDePessoas = new List<Pessoa>();
-<<<<<<< HEAD
-    }
-=======
 
 
         public static List<Pessoa> GetPessoas(string nomeDaTurma)
@@ -49,5 +46,4 @@ namespace PaginasNaoFeitas
 
 
 
->>>>>>> checar
 }

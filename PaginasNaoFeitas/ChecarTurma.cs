@@ -41,8 +41,6 @@ namespace PaginasNaoFeitas
             main.Visible = true;
             main.Show();
         }
-<<<<<<< HEAD
-=======
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -54,6 +52,5 @@ namespace PaginasNaoFeitas
                 label2.Text += "\n";
             }
         }
->>>>>>> checar
     }
 }

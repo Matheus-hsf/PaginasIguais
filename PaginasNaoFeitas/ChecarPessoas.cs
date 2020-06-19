@@ -24,8 +24,6 @@ namespace PaginasNaoFeitas
         }
 
 
-<<<<<<< HEAD
-=======
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             label3.Text = "";
@@ -48,7 +46,6 @@ namespace PaginasNaoFeitas
             main.Show();
         }
 
->>>>>>> checar
         private void ChecarPessoas_Load(object sender, EventArgs e)
         {
             foreach (Turma x in ControllerTurma.turmas)
@@ -56,8 +53,6 @@ namespace PaginasNaoFeitas
                 comboBox1.Items.Add(x.Nome);
             }
         }
-<<<<<<< HEAD
-=======
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -68,6 +63,5 @@ namespace PaginasNaoFeitas
                 comboBox2.Items.Add(x.Nome);
             }
         }
->>>>>>> checar
     }
 }

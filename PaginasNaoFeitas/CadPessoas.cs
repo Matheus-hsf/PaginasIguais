@@ -29,14 +29,10 @@ namespace PaginasNaoFeitas
         }
         private void CadPessoas_Load(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-
-=======
             foreach (Turma x in ControllerTurma.turmas)
             {
                 comboBox1.Items.Add(x.Nome);
             }
->>>>>>> checar
         }
 
         private void CadPessoas_FormClosed(object sender, FormClosedEventArgs e)
@@ -59,8 +55,6 @@ namespace PaginasNaoFeitas
 
         private void button1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-=======
             if (textBox1.Text == "")
             {
                 MessageBox.Show("Por favor insira o nome");
@@ -118,7 +112,6 @@ namespace PaginasNaoFeitas
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
->>>>>>> checar
 
         }
     }

@@ -32,10 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-<<<<<<< HEAD
-=======
             this.label3 = new System.Windows.Forms.Label();
->>>>>>> checar
             this.SuspendLayout();
             // 
             // comboBox1
@@ -46,10 +43,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(269, 21);
             this.comboBox1.TabIndex = 0;
-<<<<<<< HEAD
-=======
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
->>>>>>> checar
             // 
             // label1
             // 
@@ -77,8 +71,6 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(269, 21);
             this.comboBox2.TabIndex = 2;
-<<<<<<< HEAD
-=======
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // label3
@@ -90,30 +82,21 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(350, 200);
             this.label3.TabIndex = 4;
->>>>>>> checar
             // 
             // ChecarPessoas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(405, 300);
-=======
             this.ClientSize = new System.Drawing.Size(399, 326);
             this.Controls.Add(this.label3);
->>>>>>> checar
             this.Controls.Add(this.label2);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
             this.Name = "ChecarPessoas";
-<<<<<<< HEAD
-            this.Text = "ChecarPessoas";
-=======
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChecarPessoas";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ChecarPessoas_FormClosed);
->>>>>>> checar
             this.Load += new System.EventHandler(this.ChecarPessoas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -126,9 +109,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboBox2;
-<<<<<<< HEAD
-=======
         private System.Windows.Forms.Label label3;
->>>>>>> checar
     }
 }
