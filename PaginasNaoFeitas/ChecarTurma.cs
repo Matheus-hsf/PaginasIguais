@@ -41,5 +41,16 @@ namespace PaginasNaoFeitas
             main.Visible = true;
             main.Show();
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            label2.Text = "";
+
+            foreach (Pessoa item in ControllerPessoas.GetPessoas(comboBox1.Text))
+            {
+                label2.Text += item.Nome;
+                label2.Text += "\n";
+            }
+        }
     }
 }
