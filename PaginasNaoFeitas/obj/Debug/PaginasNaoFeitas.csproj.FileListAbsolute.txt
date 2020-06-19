@@ -1,0 +1,14 @@
+C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\bin\Debug\PaginasNaoFeitas.exe.config
+C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\bin\Debug\PaginasNaoFeitas.exe
+C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\bin\Debug\PaginasNaoFeitas.pdb
+C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoFeitas.csprojAssemblyReference.cache
+C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoFeitas.Form1.resources
+C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoFeitas.Properties.Resources.resources
+C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoFeitas.csproj.GenerateResource.cache
+C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoFeitas.csproj.CoreCompileInputs.cache
+C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoFeitas.exe
+C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoFeitas.pdb
+C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoFeitas.CadPessoas.resources
+C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoFeitas.CadTurmas.resources
+C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoFeitas.ChecarTurma.resources
+C:\Users\Picachu\Desktop\PaginasNaoFeitas\PaginasNaoFeitas\obj\Debug\PaginasNaoFeitas.ChecarPessoas.resources
