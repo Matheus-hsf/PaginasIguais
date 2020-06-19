@@ -81,6 +81,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
             this.Name = "ChecarPessoas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChecarPessoas";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ChecarPessoas_FormClosed);
             this.Load += new System.EventHandler(this.ChecarPessoas_Load);

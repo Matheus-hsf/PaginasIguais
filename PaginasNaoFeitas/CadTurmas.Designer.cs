@@ -251,6 +251,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "CadTurmas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadTurmas";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CadTurmas_FormClosed);
             this.Load += new System.EventHandler(this.CadTurmas_Load);

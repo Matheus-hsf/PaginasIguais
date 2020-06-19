@@ -24,18 +24,6 @@ namespace PaginasNaoFeitas
         }
 
 
-        private void ChecarPessoas_Load(object sender, EventArgs e)
-        {
-            foreach (Turma x in ControllerTurma.turmas)
-            {
-                comboBox1.Items.Add(x.Nome);
-            }
-            foreach (Pessoa x in ControllerPessoas.listaDePessoas)
-            {
-                comboBox2.Items.Add(x.Nome);
-            }
-        }
-
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             
@@ -45,6 +33,11 @@ namespace PaginasNaoFeitas
         {
             main.Visible = true;
             main.Show();
+        }
+
+        private void ChecarPessoas_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
