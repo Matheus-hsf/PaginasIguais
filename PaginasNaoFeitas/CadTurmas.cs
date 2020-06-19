@@ -43,13 +43,24 @@ namespace PaginasNaoFeitas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Turma x = new Turma();
-            x.Nome = textBox1.Text;
-            x.hora = comboBox1.SelectedText.ToString();
-            x.minuto = comboBox2.SelectedText.ToString();
-            ControllerTurma.turmas.Add(x);
-            MessageBox.Show("Classe " + x.Nome + " cadastrado com sucesso!");
-            this.Close();
+            if (textBox1.Text == "" || textBox1.Text == " ")
+            {
+                MessageBox.Show("Por favor insira o nome da turma");
+            }
+            else if (comboBox1.Text == "" || comboBox1.Text == null || comboBox2.Text == "" || comboBox2.Text == null)
+            {
+                MessageBox.Show("Por favor insira o hora e minutos da turma");
+            }
+            else
+            {
+                Turma x = new Turma();
+                x.Nome = textBox1.Text;
+                x.hora = comboBox1.SelectedText.ToString();
+                x.minuto = comboBox2.SelectedText.ToString();
+                ControllerTurma.turmas.Add(x);
+                MessageBox.Show("Classe " + x.Nome + " cadastrado com sucesso!");
+                this.Close();
+            }
         }
 
         private void CadTurmas_FormClosed(object sender, FormClosedEventArgs e)
