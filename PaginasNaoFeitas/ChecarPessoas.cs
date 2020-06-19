@@ -30,7 +30,7 @@ namespace PaginasNaoFeitas
             Pessoa selecionado = ControllerPessoas.GetPessoa(comboBox2.Text);
             label3.Text += selecionado.Nome;
             label3.Text += "\n";
-            label3.Text = "Páginas não feitas";
+            label3.Text = "Páginas não feitas:";
             label3.Text += "\n";
 
             foreach (int x in selecionado.paginasNaoFeitas)

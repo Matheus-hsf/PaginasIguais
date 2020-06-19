@@ -70,6 +70,12 @@
     <Compile Include="ChecarTurma.Designer.cs">
       <DependentUpon>ChecarTurma.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConsultarPaginas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarPaginas.Designer.cs">
+      <DependentUpon>ConsultarPaginas.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControllerPessoas.cs" />
     <Compile Include="ControllerTurma.cs" />
     <Compile Include="Form1.cs">
@@ -93,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChecarTurma.resx">
       <DependentUpon>ChecarTurma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarPaginas.resx">
+      <DependentUpon>ConsultarPaginas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

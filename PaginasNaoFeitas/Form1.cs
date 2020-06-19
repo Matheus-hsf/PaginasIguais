@@ -54,6 +54,14 @@ namespace PaginasNaoFeitas
             x.Visible = true;
             x.StartPosition = FormStartPosition.CenterScreen;
         }
+        public void IrProCheckPaginas()
+        {
+            this.Visible = false;
+            this.Hide();
+            ConsultarPaginas x = new ConsultarPaginas(this);
+            x.Visible = true;
+            x.StartPosition = FormStartPosition.CenterScreen;
+        }
 
 
 
@@ -75,6 +83,11 @@ namespace PaginasNaoFeitas
         private void button4_Click(object sender, EventArgs e)
         {
             IrProCheckPessoa();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            IrProCheckPaginas();
         }
     }
 }
