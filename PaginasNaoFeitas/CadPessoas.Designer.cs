@@ -83,11 +83,19 @@
             // 
             // comboBox1
             // 
+<<<<<<< HEAD
+=======
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+>>>>>>> checar
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(82, 134);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(257, 21);
             this.comboBox1.TabIndex = 4;
+<<<<<<< HEAD
+=======
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+>>>>>>> checar
             // 
             // label4
             // 
@@ -106,6 +114,10 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(243, 90);
             this.textBox2.TabIndex = 6;
+<<<<<<< HEAD
+=======
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
+>>>>>>> checar
             // 
             // label5
             // 
@@ -153,6 +165,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "CadPessoas";
+<<<<<<< HEAD
+=======
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+>>>>>>> checar
             this.Text = "CadPessoas";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CadPessoas_FormClosed);
             this.Load += new System.EventHandler(this.CadPessoas_Load);

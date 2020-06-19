@@ -55,6 +55,13 @@ namespace PaginasNaoFeitas
                 this.paginasNaoFeitas.Add(x);
             }
         }
+<<<<<<< HEAD
+=======
+        public void SetPaginas(List<int> x)
+        {
+            this.paginasNaoFeitas = x;
+        }
+>>>>>>> checar
 
     }
 }

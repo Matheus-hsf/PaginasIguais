@@ -30,6 +30,10 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+<<<<<<< HEAD
+=======
+            this.label2 = new System.Windows.Forms.Label();
+>>>>>>> checar
             this.SuspendLayout();
             // 
             // label1
@@ -50,15 +54,37 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(313, 21);
             this.comboBox1.TabIndex = 1;
+<<<<<<< HEAD
+=======
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(31, 78);
+            this.label2.MinimumSize = new System.Drawing.Size(350, 200);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(350, 200);
+            this.label2.TabIndex = 2;
+>>>>>>> checar
             // 
             // ChecarTurma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(412, 306);
+<<<<<<< HEAD
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.Name = "ChecarTurma";
+=======
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label1);
+            this.Name = "ChecarTurma";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+>>>>>>> checar
             this.Text = "ChecarTurma";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ChecarTurma_FormClosed);
             this.Load += new System.EventHandler(this.ChecarTurma_Load);
@@ -71,5 +97,9 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.Label label2;
+>>>>>>> checar
     }
 }
